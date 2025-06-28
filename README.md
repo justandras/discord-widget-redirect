@@ -2,7 +2,7 @@
 Cloudflare Worker to redirect users to your discord server using the widget API.
 
 > [!IMPORTANT] 
-> Make sure to enable the Server Widget by going to <kbd><kbd>Server Settings</kbd> ⇒ <kbd>Widget</kbd></kbd>, checking <kbd>Enable Server Widget</kbd> and selecting an <kbd>Invite Channel</kbd>.
+> Make sure to enable the Server Widget by going to <kbd><kbd>Server Settings</kbd> ⇒ <kbd>Engagement</kbd></kbd>, checking <kbd>Enable Server Widget</kbd> and selecting an <kbd>Invite Channel</kbd>.
 
 ## Setting up a development environment
 
