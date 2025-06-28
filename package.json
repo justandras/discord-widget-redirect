@@ -1,0 +1,28 @@
+{
+  "name": "discord-widget-redirect",
+  "version": "0.0.1",
+  "description": "Cloudflare Worker to redirect users to your discord server using the widget API.",
+  "author": "András Pozsgai",
+  "license": "MIT",
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/justandras/discord-widget-redirect.git"
+  },
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest",
+		"cf-typegen": "wrangler types"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"@types/node": "^24.0.1",
+		"typescript": "^5.5.2",
+		"vitest": "~3.2.0",
+		"wrangler": "^4.20.0"
+	},
+	"dependencies": {
+		"discord-api-types": "^0.38.11"
+	}
+}
