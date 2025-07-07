@@ -10,7 +10,7 @@ Cloudflare Worker to redirect users to your discord server using the widget API.
 - run `npm install`
 - run `npx wrangler deploy` or `npm run deploy` and follow the instructions
 - Go to your Cloudflare Account Home page on [dash.cloudflare.com](https://dash.cloudflare.com)
-- On the go to <kbd>Compute (Workers)</kbd> ⇒ <kbd>Workers & Pages</kbd>
+- On the left go to <kbd>Compute (Workers)</kbd> ⇒ <kbd>Workers & Pages</kbd>
 - Select your deployed worker and go to <kbd>Settings</kbd> ⇒ <kbd>Domains & Routes</kbd> and add a domain or subdomain
 - Go to <kbd>Settings</kbd> ⇒ <kbd>Variables and Secrets</kbd> and add your Discord server ID as a plaintext variable named `DISCORD_SERVER_ID`
 
